@@ -11,10 +11,10 @@ int num1, num2, operacao;
   scanf("%d", &operacao);
 
   switch(operacao) {
-    case 1: printf("%d", num1-num2); break;
+    case 1: printf("%d", num1+num2); break;
     case 2: printf("%d", num1-num2); break;
-    case 3: printf("%d", num1/num2); break;
-    case 4: printf("%d", num1*num2); break;
+    case 3: printf("%d", num1*num2); break;
+    case 4: printf("%d", num1/num2); break;
     case 5: printf("%f", pow(num1,num2)); break;
     default: printf("\nEssa operação não existe.\n"); break;
   }
